@@ -1,0 +1,960 @@
+Watching for file changes with StatReloader
+"POST /semfour/customer HTTP/1.1" 200 1020
+"POST /semfour/customer HTTP/1.1" 200 1020
+"GET /semfour/item HTTP/1.1" 200 1042
+"POST /semfour/item HTTP/1.1" 200 1148
+"POST /semfour/item HTTP/1.1" 200 1148
+"POST /semfour/item HTTP/1.1" 200 1148
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 34, in create_item
+    fs.save(image.name, image)
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /semfour/item HTTP/1.1" 500 70876
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 2986
+"GET /semfour/item HTTP/1.1" 200 1042
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 34, in create_item
+    fs.save(image.name, image)
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /semfour/item HTTP/1.1" 500 70848
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/customer HTTP/1.1" 200 920
+"POST /semfour/customer HTTP/1.1" 200 1028
+"GET /semfour/item HTTP/1.1" 200 1042
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 34, in create_item
+    fs.save(image.name, image)
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /semfour/item HTTP/1.1" 500 70848
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/item HTTP/1.1" 200 1042
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 32, in create_item
+    image = request.FILES['image']  # Получаем изображение из данных запроса
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'image'
+"POST /semfour/item HTTP/1.1" 500 78869
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 34, in create_item
+    filename = fs.save(image.name, image)  # Сохраняем изображение
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /semfour/item HTTP/1.1" 500 71250
+"GET /semfour/item HTTP/1.1" 200 1042
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 34, in create_item
+    filename = fs.save(image.name, image)  # Сохраняем изображение
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /semfour/item HTTP/1.1" 500 71250
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/upload HTTP/1.1" 200 491
+"POST /semfour/upload HTTP/1.1" 200 570
+"POST /semfour/upload HTTP/1.1" 200 570
+"POST /semfour/upload HTTP/1.1" 200 570
+"POST /semfour/upload HTTP/1.1" 200 570
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/upload HTTP/1.1" 200 600
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/upload HTTP/1.1" 200 521
+"POST /semfour/upload HTTP/1.1" 200 600
+"POST /semfour/upload HTTP/1.1" 200 706
+"POST /semfour/upload HTTP/1.1" 200 706
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\S2_full\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\S2_full\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\S2_full\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\S2_full\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/upload
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = middleware_method(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\middleware\csrf.py", line 465, in process_view
+    self._check_token(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\middleware\csrf.py", line 368, in _check_token
+    request_csrf_token = request.POST.get("csrfmiddlewaretoken", "")
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\wsgi.py", line 93, in _get_post
+    self._load_post_and_files()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\request.py", line 374, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\request.py", line 322, in parse_file_upload
+    return parser.parse()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\multipartparser.py", line 124, in parse
+    return self._parse()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\multipartparser.py", line 224, in _parse
+    settings.DATA_UPLOAD_MAX_MEMORY_SIZE - num_bytes_read
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+"POST /semfour/upload HTTP/1.1" 500 103132
+Internal Server Error: /semfour/upload
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = middleware_method(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\middleware\csrf.py", line 465, in process_view
+    self._check_token(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\middleware\csrf.py", line 368, in _check_token
+    request_csrf_token = request.POST.get("csrfmiddlewaretoken", "")
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\wsgi.py", line 93, in _get_post
+    self._load_post_and_files()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\request.py", line 374, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\request.py", line 322, in parse_file_upload
+    return parser.parse()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\multipartparser.py", line 124, in parse
+    return self._parse()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\http\multipartparser.py", line 224, in _parse
+    settings.DATA_UPLOAD_MAX_MEMORY_SIZE - num_bytes_read
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+"POST /semfour/upload HTTP/1.1" 500 103132
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\S2_full\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/upload HTTP/1.1" 200 706
+"POST /semfour/upload HTTP/1.1" 200 706
+Forbidden (CSRF cookie not set.): /semfour/upload
+"POST /semfour/upload HTTP/1.1" 403 2869
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/upload HTTP/1.1" 200 624
+"POST /semfour/upload HTTP/1.1" 200 706
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/upload
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 61, in upload_image
+    return redirect('success')  # Перенаправляем на страницу успешной загрузки
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'success' not found. 'success' is not a valid view function or pattern name.
+"POST /semfour/upload HTTP/1.1" 500 89178
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/upload HTTP/1.1" 200 624
+"POST /semfour/upload HTTP/1.1" 200 624
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/upload HTTP/1.1" 200 706
+"POST /semfour/upload HTTP/1.1" 200 706
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/upload HTTP/1.1" 200 624
+"POST /semfour/upload HTTP/1.1" 200 624
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 67, in create_item
+    return render(request, 'create_item.html', {'form': form, 'image_form': image_form})
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: create_item.html
+"GET /semfour/item HTTP/1.1" 500 84248
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 67, in create_item
+    return render(request, 'hw/create_item.html', {'form': form, 'image_form': image_form})
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw/create_item.html
+"GET /semfour/item HTTP/1.1" 500 84433
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/item HTTP/1.1" 200 1563
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/item HTTP/1.1" 200 1427
+"GET /semfour/item HTTP/1.1" 200 1446
+"GET /semfour/item HTTP/1.1" 200 1463
+"POST /semfour/item HTTP/1.1" 200 1628
+"POST /semfour/item HTTP/1.1" 200 1782
+"POST /semfour/item HTTP/1.1" 200 1744
+"POST /semfour/item HTTP/1.1" 200 1825
+Watching for file changes with StatReloader
+"POST /semfour/item HTTP/1.1" 200 1825
+"GET /semfour/order HTTP/1.1" 200 1397
+"GET /semfour/item HTTP/1.1" 200 1506
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/item HTTP/1.1" 200 1425
+"POST /semfour/item HTTP/1.1" 200 1744
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/item HTTP/1.1" 200 1300
+"POST /semfour/item HTTP/1.1" 200 1065
+"POST /semfour/item HTTP/1.1" 200 1065
+"GET /semfour/order HTTP/1.1" 200 1397
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect('success')
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'success' not found. 'success' is not a valid view function or pattern name.
+"POST /semfour/item HTTP/1.1" 500 89188
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/item HTTP/1.1" 302 0
+Not Found: /semfour/hw/success
+"GET /semfour/hw/success HTTP/1.1" 404 3204
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /semfour/hw/success
+"GET /semfour/hw/success HTTP/1.1" 404 3204
+"GET /semfour/item HTTP/1.1" 200 981
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return render('hw/success.html')
+TypeError: render() missing 1 required positional argument: 'template_name'
+"POST /semfour/item HTTP/1.1" 500 70934
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/item HTTP/1.1" 200 143
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return render(request, 'hw/success.html')
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload' not found. 'upload' is not a valid view function or pattern name.
+"POST /semfour/item HTTP/1.1" 500 121663
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/item HTTP/1.1" 200 981
+"POST /semfour/item HTTP/1.1" 200 359
+"GET /semfour/upload HTTP/1.1" 200 624
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+Not Found: /stats/
+"GET /stats/ HTTP/1.1" 404 3168
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 766, in _reverse_with_prefix
+    raise ValueError("Don't mix *args and **kwargs in call to reverse()!")
+ValueError: Don't mix *args and **kwargs in call to reverse()!
+"POST /semfour/item HTTP/1.1" 500 88978
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 766, in _reverse_with_prefix
+    raise ValueError("Don't mix *args and **kwargs in call to reverse()!")
+ValueError: Don't mix *args and **kwargs in call to reverse()!
+"POST /semfour/item HTTP/1.1" 500 88978
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 766, in _reverse_with_prefix
+    raise ValueError("Don't mix *args and **kwargs in call to reverse()!")
+ValueError: Don't mix *args and **kwargs in call to reverse()!
+"POST /semfour/item HTTP/1.1" 500 88978
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 766, in _reverse_with_prefix
+    raise ValueError("Don't mix *args and **kwargs in call to reverse()!")
+ValueError: Don't mix *args and **kwargs in call to reverse()!
+"POST /semfour/item HTTP/1.1" 500 88969
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 766, in _reverse_with_prefix
+    raise ValueError("Don't mix *args and **kwargs in call to reverse()!")
+ValueError: Don't mix *args and **kwargs in call to reverse()!
+"POST /semfour/item HTTP/1.1" 500 88969
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<WSGIRequest: POST '/semfour/item'>' not found. '<WSGIRequest: POST '/semfour/item'>' is not a valid view function or pattern name.
+"POST /semfour/item HTTP/1.1" 500 89670
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect(request, 'hw/upload_image', new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<WSGIRequest: POST '/semfour/item'>' not found. '<WSGIRequest: POST '/semfour/item'>' is not a valid view function or pattern name.
+"POST /semfour/item HTTP/1.1" 500 89674
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /semfour/item HTTP/1.1" 302 0
+Not Found: /semfour/hw/upload_image
+"GET /semfour/hw/upload_image HTTP/1.1" 404 3219
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /semfour/hw/upload_image
+"GET /semfour/hw/upload_image HTTP/1.1" 404 3219
+Not Found: /semfour/hw/upload_image
+"GET /semfour/hw/upload_image HTTP/1.1" 404 3219
+Not Found: /semfour/hw/upload_image
+"GET /semfour/hw/upload_image HTTP/1.1" 404 3219
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect('upload_image', new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '(<Item: Товар Таинственный напиток по цене 1001>,)' not found. 1 pattern(s) tried: ['semfour/upload\\Z']
+"POST /semfour/item HTTP/1.1" 500 91670
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 45, in create_item
+    return redirect('upload_image', item = new_item)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with keyword arguments '{'item': <Item: Товар Таинственный напиток по цене 1001>}' not found. 1 pattern(s) tried: ['semfour/upload\\Z']
+"POST /semfour/item HTTP/1.1" 500 91902
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 42, in create_item
+    return redirect('upload_image', item=new_item.id)  # Перенаправление на upload_image с передачей item
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with keyword arguments '{'item': 20}' not found. 1 pattern(s) tried: ['semfour/upload\\Z']
+"POST /semfour/item HTTP/1.1" 500 91238
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"GET /semfour/item HTTP/1.1" 200 981
+Internal Server Error: /semfour/item
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 41, in create_item
+    return redirect('upload_image', item=new_item.id)  # Редирект на представление upload_image с передачей параметра item
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with keyword arguments '{'item': 21}' not found. 1 pattern(s) tried: ['semfour/upload\\Z']
+"POST /semfour/item HTTP/1.1" 500 91192
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"GET /semfour/item HTTP/1.1" 200 981
+"GET /semfour/upload/1 HTTP/1.1" 200 643
+"POST /semfour/upload/1 HTTP/1.1" 200 143
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/order HTTP/1.1" 200 3093
+"GET /semfour/order HTTP/1.1" 200 3111
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Customer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 83, in create_order
+    new_order.save()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Customer: Customer object (1)>.
+"POST /semfour/order HTTP/1.1" 500 149960
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"GET /orders/2/ HTTP/1.1" 200 408
+"GET /semfour/item HTTP/1.1" 200 981
+"GET /semfour/order HTTP/1.1" 200 3107
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Customer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 83, in create_order
+    new_order.save()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Customer: Customer object (1)>.
+"POST /semfour/order HTTP/1.1" 500 150425
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 82, in create_order
+    new_order = Order(customer=customer, items=items, total_amount=total_amount)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\related_descriptors.py", line 659, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use items.set() instead.
+"POST /semfour/order HTTP/1.1" 500 82853
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 82, in create_order
+    new_order = Order(customer=customer, items=set(items), total_amount=total_amount) #В случае с ManyToManyField можно задавать значения только через set
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\related_descriptors.py", line 659, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use items.set() instead.
+"POST /semfour/order HTTP/1.1" 500 83069
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 82, in create_order
+    new_order = Order(customer=customer, items=set(items), total_amount=total_amount) #В случае с ManyToManyField можно задавать значения только через set
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\related_descriptors.py", line 659, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use items.set() instead.
+"POST /semfour/order HTTP/1.1" 500 83069
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 83, in create_order
+    new_order.items.set(items)  #В случае с ManyToManyField можно задавать значения только через set()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\related_descriptors.py", line 650, in __get__
+    return self.related_manager_cls(instance)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\fields\related_descriptors.py", line 1069, in __init__
+    raise ValueError(
+ValueError: "<Order: Заказ № None - Гоша. Заказ сделан None >" needs to have a value for field "id" before this many-to-many relationship can be used.
+"POST /semfour/order HTTP/1.1" 500 81955
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /semfour/order
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: hw_order.created_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\views.py", line 83, in create_order
+    new_order.save()
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Александр\.virtualenvs\pythonProject\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: hw_order.created_at
+"POST /semfour/order HTTP/1.1" 500 150698
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"POST /semfour/order HTTP/1.1" 200 143
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 191
+"GET /semfour/item HTTP/1.1" 200 981
+"GET /semfour/order HTTP/1.1" 200 1774
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/order HTTP/1.1" 200 3678
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/order HTTP/1.1" 200 3696
+"POST /semfour/order HTTP/1.1" 200 143
+C:\Users\Александр\Desktop\Geek Brains\Django\S2_full\hw\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /semfour/order HTTP/1.1" 200 3983
+"POST /semfour/order HTTP/1.1" 200 143
